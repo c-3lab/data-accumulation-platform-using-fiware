@@ -1,0 +1,16 @@
+export TF_VAR_mongodb_host=cluster0-shard-00-00.xxxxx.azure.mongodb.net,cluster0-shard-00-01.xxxxx.azure.mongodb.net,cluster0-shard-00-02.xxxxx.azure.mongodb.net
+export TF_VAR_mongodb_host_port=cluster0-shard-00-00.xxxxx.azure.mongodb.net:27017,cluster0-shard-00-0h.xxxxx.azure.mongodb.net:27017,cluster0-shard-00-0h.xxxxx.azure.mongodb.net:27017
+export TF_VAR_mongodb_rsname=atlas-xxxxx-shard-0
+export TF_VAR_azuread_application_kubernetes_name=aks-data-accumulation-platform
+export TF_VAR_kubernetes_resource_name=data-accumulation-platform
+export TF_VAR_kubernetes_dns_prefix_name=data-accumulation-platform
+export TF_VAR_kong_public_ip_domain_name=data-accumulation-platform
+export TF_VAR_container_registry_name=dataaccumulationplatform
+export TF_VAR_servicebus_namespace_name=data-accumulation-platform
+export TF_VAR_resource_group_name=DataAccumulationPlatform
+export TF_VAR_log_analytics_workspace_name=data-accumulation-platform
+export TF_VAR_psql_server_name=data-accumulation-platform
+export TF_VAR_storage_account_name=dataaccumulationplatform
+export TF_VAR_log_analytics_workspace_name=data-accumulation-platform-log-analytics-workspace
+export TF_VAR_log_analytics_workspace_diag_name=DataAccumulationPlatform
+export TF_VAR_psql_server_sku_name=GP_Gen5_2
