@@ -31,3 +31,13 @@ FIWAREを活用した「データ蓄積型 データ連携基盤」
 
 ## その他外部サービス
 * MongoDB Atlas
+
+# 使い方
+
+## MongoDB Atlasの利用
+
+
+## 変数の設定
+
+
+## terraform実行
