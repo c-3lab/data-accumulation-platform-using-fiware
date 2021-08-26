@@ -7,7 +7,7 @@ FIWAREを活用した「データ蓄積型 データ連携基盤」
 
 本リポジトリはFIWAREを活用した「データ蓄積型 データ連携基盤」をAzure上に構築するTerraformファイルを公開しております。
 
-<img width="800" src="https://user-images.githubusercontent.com/6661165/125758743-9d186c08-18a4-45e2-b11a-5519c29347a4.png">
+<img width="800" src="https://user-images.githubusercontent.com/6661165/130943401-cb66b97c-82d8-46ab-8542-d8c31e5602b5.png">
 
 
 ## Azureサービス
