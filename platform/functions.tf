@@ -106,38 +106,3 @@ resource "azurerm_monitor_diagnostic_setting" "LogManipulator" {
   ]
 }
 
-data "azurerm_function_app" "AmountCalculation" {
-  name                = var.function_app_amount-calculation_name
-  resource_group_name = azurerm_resource_group.IoT-Platform.name
-}
-
-resource "azurerm_monitor_diagnostic_setting" "AmountCalculation" {
-  name                       = var.function_app_amount-calculation_diag_name
-  target_resource_id         = data.azurerm_function_app.AmountCalculation.id
-  log_analytics_workspace_id = azurerm_log_analytics_workspace.law.id
-
-  log {
-    category = "FunctionAppLogs"
-    enabled  = true
-
-    retention_policy {
-      enabled = true
-      days    = 181
-    }
-  }
-
-  metric {
-    category = "AllMetrics"
-    enabled  = true
-
-    retention_policy {
-      enabled = true
-      days    = 181
-    }
-  }
-
-  depends_on = [
-    data.azurerm_function_app.AmountCalculation
-  ]
-}
-

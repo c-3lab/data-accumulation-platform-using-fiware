@@ -472,15 +472,3 @@ variable "function_app_log-migration_diag_name" {
   default     = "LogManipulator_Logs"
   description = "Diag name for Azure Fcuntions. (LogManipulator)"
 }
-
-variable "function_app_amount-calculation_name" {
-  type        = string
-  default     = "AmountCalculation"
-  description = "Resource name for Azure Fcuntions. (AmountCalculation)"
-}
-
-variable "function_app_amount-calculation_diag_name" {
-  type        = string
-  default     = "AmountCalculation_Logs"
-  description = "Diag name for Azure Fcuntions. (AmountCalculation)"
-}
